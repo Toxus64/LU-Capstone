@@ -1,0 +1,82 @@
+body {
+  text-align: center;
+}
+
+.content {
+  max-width: 1250px;
+  margin: auto;
+  font-family: "Courier New";
+}
+
+.center {
+	text-align: center;
+}
+
+th {
+   background:#003F87;
+   color: white;
+   position: sticky;
+   top: 0px;
+   box-shadow: inset 0 2px 0 #000000, inset 0 -2px 0 #000000;   
+}
+
+td {
+   border: 2px solid black;
+   border-collapse: collapse;
+   padding: 15px 15px 15px 15px;
+   width: 10%;
+   border-left: 1px solid black;
+   border-right: 1px solid black;
+}
+
+table {
+   border-collapse: collapse;	
+}
+
+.currency {
+  margin: 0 0 10px -20px;
+}
+
+.currency:before {
+  content: "$";
+  text-align: center;
+  position: relative;
+  left: 150px;
+}
+
+.modifyItem {
+  border-radius: 5px;
+  margin: 5px;
+  padding: 10px 10px 10px 20px;
+  color: black;
+}
+
+.navButton {
+  background-color: #003F87;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  display: inline-block;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 12px;
+  font-family: "Courier New";
+}
+
+.inputField {
+  border-radius: 5px;
+  margin: 5px;
+  padding: 10px 10px 10px 20px;
+  color: black;
+}
+
+.Xshort {
+  width: 1.5%;
+}
+
+.short {
+  width: 2.5%;
+}

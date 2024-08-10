@@ -1,0 +1,25 @@
+body {
+  text-align: center;
+}
+
+.content {
+  max-width: 850px;
+  margin: auto;
+  font-family: "Courier New";
+}
+
+.center {
+	text-align: center;
+}
+
+.itemTable {
+  border: 2px solid black;
+  border-collapse: collapse;
+  padding: 5px 5px 5px 5px;
+}
+
+p {
+  text-align: right;
+  color: blue;
+}
+
